@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:tunemac/constants.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:tunemac/brain/constants.dart';
 
-class PlayScreen extends StatelessWidget {
+class PlayScreen extends ConsumerWidget {
   const PlayScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return DefaultTabController(
       length: 3,
       child: Column(
@@ -16,22 +16,22 @@ class PlayScreen extends StatelessWidget {
             dividerColor: Colors.grey,
             indicatorColor: tGreen3,
             unselectedLabelColor: Colors.grey,
-            labelStyle: TextStyle(fontSize: 12.sp),
+            labelStyle: TextStyle(fontSize: 12),
             tabs: [
               Tab(
-                icon: Icon(Icons.five_g_sharp, size: 20.sp),
+                icon: Icon(Icons.five_g_sharp, size: 20),
                 text: 'Most Played',
-                height: 50.sp,
+                height: 50,
               ),
               Tab(
-                icon: Icon(Icons.playlist_play_sharp, size: 20.sp),
+                icon: Icon(Icons.playlist_play_sharp, size: 20),
                 text: 'Fav Playlists',
-                height: 50.sp,
+                height: 50,
               ),
               Tab(
-                icon: Icon(Icons.home, size: 20.sp),
+                icon: Icon(Icons.home, size: 20),
                 text: 'Recent Trends',
-                height: 50.sp,
+                height: 50,
               ),
             ],
           ),
@@ -39,7 +39,7 @@ class PlayScreen extends StatelessWidget {
             child: TabBarView(
               children: [
                 Container(
-                  height: 1.sh,
+                  height: 1,
                   color: Colors.blue,
 
                   child: Column(

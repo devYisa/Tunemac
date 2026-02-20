@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class SeeAll extends StatelessWidget {
   const SeeAll({super.key});
@@ -10,16 +9,13 @@ class SeeAll extends StatelessWidget {
       onTap: () {},
       child: Row(
         children: [
-          Text(
-            'See all',
-            style: TextStyle(color: Colors.grey, fontSize: 15.sp),
-          ),
+          Text('See all', style: TextStyle(color: Colors.grey, fontSize: 15)),
           Padding(
-            padding: EdgeInsets.only(left: 7.sp, right: 20.sp, top: 2),
+            padding: EdgeInsets.only(left: 7, right: 20, top: 2),
             child: Icon(
               Icons.arrow_forward_ios_rounded,
               color: Colors.grey,
-              size: 13.sp,
+              size: 13,
             ),
           ),
         ],
