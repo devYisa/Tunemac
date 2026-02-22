@@ -3,15 +3,15 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///C:/Users/Grace/AppData/Local/Pub/Cache/hosted/pub.dev/_fe_analyzer_shared-91.0.0",
+      "rootUri": "file:///C:/Users/Grace/AppData/Local/Pub/Cache/hosted/pub.dev/_fe_analyzer_shared-67.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.9"
+      "languageVersion": "3.0"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///C:/Users/Grace/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer-8.4.1",
+      "rootUri": "file:///C:/Users/Grace/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer-6.4.1",
       "packageUri": "lib/",
-      "languageVersion": "3.9"
+      "languageVersion": "3.0"
     },
     {
       "name": "args",
@@ -33,7 +33,7 @@
     },
     {
       "name": "carousel_slider",
-      "rootUri": "file:///C:/Users/Grace/AppData/Local/Pub/Cache/hosted/pub.dev/carousel_slider-5.1.2",
+      "rootUri": "file:///C:/Users/Grace/AppData/Local/Pub/Cache/hosted/pub.dev/carousel_slider-5.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -327,7 +327,7 @@
     },
     {
       "name": "source_span",
-      "rootUri": "file:///C:/Users/Grace/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.2",
+      "rootUri": "file:///C:/Users/Grace/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.1",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },

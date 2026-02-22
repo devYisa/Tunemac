@@ -1,0 +1,19 @@
+# Junk Against Breakage
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Specific files that contain YOUR computer paths
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+lib/generated_plugin_registrant.dart
+
+# Android junk
+.gradle/
+local.properties
+**.keystore
+**.jks
