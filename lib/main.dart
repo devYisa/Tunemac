@@ -29,10 +29,10 @@ class MyApp extends StatelessWidget {
           GoRoute(path: '/splash', builder: (_, _) => Splash()),
           GoRoute(path: '/background', builder: (_, _) => BackgroundScreen()),
           GoRoute(path: '/home', builder: (_, _) => HomeScreen()),
-          GoRoute(path: '/landing', builder: (_, _) => LandingScreen()),
-          GoRoute(path: '/play', builder: (_, _) => PlayScreen()),
           GoRoute(path: '/search', builder: (_, _) => SearchScreen()),
+          GoRoute(path: '/play', builder: (_, _) => PlayScreen()),
           GoRoute(path: '/profile', builder: (_, _) => ProfileScreen()),
+          GoRoute(path: '/landing', builder: (_, _) => LandingScreen()),
         ],
       ),
     );

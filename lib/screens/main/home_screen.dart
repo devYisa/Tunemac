@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:tunemac/brain/constants.dart';
 import 'package:tunemac/widget/homescreen/categories.dart';
-import 'package:tunemac/widget/see_all.dart';
+import 'package:tunemac/widget/homescreen/see_all.dart';
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});
@@ -18,12 +18,13 @@ class HomeScreen extends ConsumerWidget {
         fontWeight: FontWeight.w500,
       ),
       child: Padding(
-        padding: EdgeInsets.all(15),
+        padding: EdgeInsets.symmetric(horizontal: 15),
         child: SingleChildScrollView(
           physics: BouncingScrollPhysics(),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              SizedBox(height: context.height * 0.07),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [

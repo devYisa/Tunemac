@@ -36,7 +36,7 @@ class BackgroundScreen extends ConsumerWidget {
               child: Center(
                 child: Container(
                   width: context.width * 0.8,
-                  height: 60,
+                  height: 63,
                   decoration: BoxDecoration(
                     color: tGreen1,
                     borderRadius: BorderRadius.circular(50),
